@@ -4,9 +4,13 @@
 
 ## Milestone 0: Kali Gone Wild
 
+I setup Kali just as how it is specified within the codepath guide
+
 <img src="https://i.imgur.com/wyo7Omq.png?1"/>
 
 ## Milestone 1: Hello, SET
+
+I followed the guide to send myself a couple emails. At first I had trouble sending them. I would not receive any emails. I figured that on the password section, when choosing a target email, you are supposed to enter the password for that target email. During my third attempt, I used the password for the target email and received an email.
 
 <img src="https://i.imgur.com/oYZHKB7.png?1"/>
 
@@ -24,6 +28,9 @@ Microsoft and Adobe are both heavily represented on the list
 
 It appears that these exploits cater to Microsoft Windows
 
+
+I attempted the challenge with an actual payload, but the email failed to deliver. Codepath expected this to happen since Google scans pdf files and will detect and drop any malicious files:
+
 <img src="https://i.imgur.com/YbuR3eG.png?1"/>
 
 ## Milestone 3: Fakebook
@@ -37,6 +44,8 @@ I have attempted to imitate a website’s log in page using the SET app from Kal
 The SET kit did not intercept any credentials for each of the attempts.
 
 ## Milestone 5: Cleanup
+
+I am switching the adapters from bridged to NAT as shown in the following images:
 
 <img src="https://i.imgur.com/OyCleUy.png?1"/>
 
