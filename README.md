@@ -1,5 +1,7 @@
 # IST-590-Week-10
 
+> Week 10 Lab is after Week 10 Assignment
+
 # IST 590: Week 10 Assignment
 
 ## Part 1
