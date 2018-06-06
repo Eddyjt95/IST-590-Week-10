@@ -1,5 +1,87 @@
 # IST-590-Week-10
 
+# IST 590: Week 10 Assignment
+
+## Part 1
+
+### Challenge 1.0: Hello, Shodan
+
+In this challenge, I have created a Shodan account; you’ll notice that I am signed in since it says “My Account on the upper right instead of “Login or Register”:
+
+<img src="https://i.imgur.com/tXN3kew.png?1"/>
+
+### Challenge 1.1: Webcams
+
+In this challenge, I looked around to see what kind of contents Shodan has. I found some IP addresses dedicated to webcams:
+
+<img src="https://i.imgur.com/pAzZLce.png?1"/>
+
+### Challenge 1.2: Filtering
+
+> Challenge: use the filters in Shodan to find a specific target, which is a public webcam at a zoo in Japan. Here's some information:
+
+* The hostname contains "p6026-ipbffx02yosida"
+
+* The port "8080" is exposed
+
+* The asn (network identifier) is “AS 4713”
+
+It appears that the host does not exist. It could be that it was removed, or the filter provided by code path no longer works or does not return the specific result:
+
+<img src="https://i.imgur.com/gugF7rr.png?1"/>
+
+## Part 2: The Darknet & Cryptocurrency
+
+### Challenge 2.0: Tool Up
+
+I have set Tor up as specified by both codepath and this site. Below is the work URL of a guide I used and a working VM with Tails running along with an opened TOR browser: 
+
+[https://tails.boum.org/doc/advanced_topics/virtualization/virtualbox/index.en.html]
+
+<img src="https://i.imgur.com/5vl7yWL.png?1"/>
+
+### Challenge 2.1: Switching Circuits
+
+I have attempted to switch circuits about 19 times. And I was not able to connect to the Craigslist site:
+
+<img src="https://i.imgur.com/i70P8wh.png?1"/>
+
+### challenge 2.2: Onions
+
+I have followed code path’s guide on entering these .onion websites. The first website appears to be a News outlet while the second site is a search engine:
+
+<img src="https://i.imgur.com/GKZCLqI.png?1"/>
+
+### Challenge 2.3: Into the Darkness
+
+I have attempted to connect to the links provided by code path, which you can see within the following image (some were Not Available (N/A) while others were):. 
+
+* The first left window: The Hidden Wiki (N/A)
+
+* The top-middle window: Anarchist Bookstore (Avail.)
+
+* The bottom-middle window: ParaZite – forbidden files (N/A)
+
+* The right-upper window: Ahmia search engine (Avail.)
+
+* The right-lower window: Onion Crate search engine (N/A)
+
+<img src="https://i.imgur.com/WxiDeIz.png?1"/>
+
+### Challenge 2.4: How (Not) To Get Busted
+
+I followed the code path guide on selecting a new identity, which clears out all cookies that have been saved and it took me back to the tails website. Next, the guide mentioned that a user could experiment with the security settings that could help a user stay safe when navigating within the TOR browser. When opening the “Security Settings…” tab, you are presented with 3 options: Standard, Safer, and Safest. The Standard option is the default option that all TOR browsers are configured too. The Safer option disables some features on website, such as: JavaScript (in non-HTTPs sites), Some fonts and symbols, and audio as well as video options are “click-to-play.” The Safest option disables all JavaScript, some fonts, symbols, icons, and images are disabled, but audio as well as video options are still “click-to-play”
+
+<img src="https://i.imgur.com/ovIBRIL.png?1"/>
+
+### Challenge 2.5: Then Came The Money
+
+In this challenge, we took a look at bitcoin and a bitcoin wallet. The code path guide had us look into an address which is said to contain and be controlled by the creator of bitcoin, Satoshi Nakamoto. The amount of bitcoin (mBTC) in this address is:  $168,585,002. However, to get the true amount, the mBTC must be divided by one thousand (1,000), so $168,585,002 / 1,000 = $168,585.002 (Bitcoin available).
+
+<img src="https://i.imgur.com/e7DPiaV.png?1"/>
+
+
+
 # IST 590: Week 10 Lab
 
 ## Milestone 0: Kali Gone Wild
